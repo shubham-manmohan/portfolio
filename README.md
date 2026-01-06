@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shubham Manmohan – Software Engineer Portfolio
 
-## Getting Started
+This repository contains the source code for my personal portfolio website, hosted using **GitHub Pages**.
 
-First, run the development server:
+🔗 **Live Website:**  
+https://shubham-manmohan.github.io/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I am a **Software Engineer** with strong experience in building **enterprise-grade banking and financial platforms**, focusing on:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- BPMN-based workflow systems
+- Secure authentication & authorization
+- Document processing and comparison engines
+- Microservices architecture
+- Corporate banking UI and integrations
 
-## Learn More
+Currently working at **Impactsure Technologies**, where I have contributed to and led multiple **production systems** used by major banks including **SBI, Axis Bank, SIB, and HDFC Bank**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Core Expertise
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Backend:** Java, Spring Boot, Hibernate, Flowable BPMN
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Security:** Keycloak, LDAP, OAuth2
+- **Document Processing:** Apache POI, Paddle OCR, Diff Match Patch
+- **Databases:** Oracle 19c, MySQL
+- **Tools:** Git, Postman, MS Graph Java SDK
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏗️ Major Projects Highlighted
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔹 SureEditor – In-House DOCX Web Editor
+
+- Built a complete **DOCX-based web editor** with:
+  - Track changes
+  - Comments
+  - DOCX ↔ HTML ↔ PDF conversion (~90% accuracy)
+- Replaced CKEditor, saving **~$3000/year in licensing cost**
+- Used across **70%+ internal products**
+- Integrated into **SureSanction, BG Printing, SureMatch-BG**
+- Live in production for **SBI, Axis Bank, and SIB**
+
+---
+
+### 🔹 Document Comparison Engine
+
+- Prevents document forgery by detecting exact differences
+- Side-by-side comparison with highlighted changes
+- Accuracy:
+  - ~90% for digital documents
+  - ~80% for scanned documents
+- Technologies:
+  - Apache POI
+  - Paddle OCR
+  - Diff Match Patch algorithm
+
+---
+
+### 🔹 BG Printing – Axis Bank (Phase-1 Go-Live)
+
+- Served as **Technical Lead**
+- Managed a **5-member team** under accelerated RBI timelines
+- Enabled real-time BG inventory and document execution
+- Resolved **10+ critical production issues**
+- Delivered **5+ change requests**
+- Handled **nationwide helpline support** for Axis Bank branches
+- Awarded **Star Team of the Month**
+
+---
+
+### 🔹 Trade Platform (Current)
+
+- Building a **full-scale trade finance platform**
+- POC for **HDFC Bank**
+- Demos for **SBI, Deutsche Bank, Euro Exim**
+- Covers:
+  - IRM, ORM
+  - Import / Export Finance
+  - EDPMS, SOFTEX, BG
+- Designed the **first corporate client-facing React UI framework**
+- Implemented **Flowable BPMN maker–checker workflows**
+
+---
+
+## 🧪 Tech Stack Used in This Portfolio
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- GitHub Pages (Hosting)
+
+This portfolio uses a **lightweight, build-free setup** for fast loading and easy maintenance.
+
+---
+
+## 📁 Project Structure

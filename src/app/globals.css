@@ -1,26 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Enable dark variant */
+@custom-variant dark (&:is(.dark *));
+
+/* =========================
+   DESIGN TOKENS
+   ========================= */
+@theme {
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --radius: 0.75rem;
+
+  --color-background: hsl(210 20% 97%);
+  --color-foreground: hsl(220 15% 15%);
+  --color-card: hsl(210 15% 100%);
+  --color-card-foreground: hsl(220 15% 15%);
+  --color-primary: hsl(200 70% 55%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-secondary: hsl(210 30% 92%);
+  --color-secondary-foreground: hsl(220 20% 25%);
+  --color-muted: hsl(210 20% 95%);
+  --color-muted-foreground: hsl(220 15% 45%);
+  --color-accent: hsl(220 80% 55%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  --color-border: hsl(210 20% 88%);
+  --color-ring: hsl(200 70% 55%);
+  --color-indigo: hsl(210 70% 50%);
+  --color-indigo-light: hsl(215 80% 65%);
+  --color-purple: hsl(220 60% 55%);
+  --color-purple-light: hsl(225 75% 70%);
+  --color-navy: hsl(210 40% 80%);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* 🔑 REQUIRED: generate utilities */
+@reference "tailwindcss/theme";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* =========================
+   BASE STYLES
+   ========================= */
+@layer base {
+  * {
+    border-color: theme(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: theme(--color-background);
+    color: theme(--color-foreground);
+    font-family: theme(--font-sans);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* =========================
+   COMPONENTS
+   ========================= */
+@layer components {
+  .gradient-text {
+    background: linear-gradient(
+      to right,
+      theme(--color-indigo-light),
+      theme(--color-purple),
+      theme(--color-purple-light)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .section-container {
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  .glass-card {
+    background: color-mix(in oklab, theme(--color-card) 60%, transparent);
+    backdrop-filter: blur(16px);
+    border-radius: theme(--radius);
+    border: 1px solid theme(--color-border);
+  }
+}
+
+@layer utilities {
+  .font-signature {
+    font-family: "Dancing Script", cursive;
+  }
+  .fasthand-regular {
+    font-family: "Fasthand";
+    font-weight: 400;
+    font-style: normal;
+  }
 }

@@ -160,7 +160,7 @@ This portfolio follows a **modern Next.js architecture** optimized for:
 Feel free to connect with me:
 
 - 📧 **Email:** shubhammanmohan16@gmail.com  
-- 💼 **LinkedIn:** https://linkedin.com/in/shubhammanmohan  
+- 💼 **LinkedIn:** https://linkedin.com/in/shubham-manmohan  
 - 🐙 **GitHub:** https://github.com/shubham-manmohan  
 
 ---

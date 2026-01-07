@@ -1,12 +1,14 @@
 "use client";
 
 import AboutSection from "./AboutSection";
+import AchievementsSection from "./AchievementsSection";
 import ContactSection from "./ContactSection";
 import ExperienceSection from "./ExperienceSection";
 import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import Navigation from "./Navigation";
 import ProjectsSection from "./ProjectsSection";
+import ResumeSection from "./ResumeSection";
 import SkillsSection from "./SkillsSection";
 
 export default function RootWrapper() {
@@ -17,8 +19,10 @@ export default function RootWrapper() {
                 <HeroSection />
                 <AboutSection />
                 <ExperienceSection />
+                <AchievementsSection />
                 <ProjectsSection />
                 <SkillsSection />
+                <ResumeSection />
                 <ContactSection />
             </main>
             <Footer />

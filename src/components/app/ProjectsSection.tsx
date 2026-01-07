@@ -7,14 +7,14 @@ const projects = [
         title: "Trade Platform",
         period: "May 2025 - Present",
         icon: Layers,
-        description: "Full-stack trade platform for banking domain covering IRM, ORM, Import/Export LC, MTT, Finance, EDPMS, SOFTEX, and BG services.",
+        description: "Full-stack trade platform for banking domain covering IRM, ORM, Import/Export LC, MTT, Finance, EDPMS, IDPMS, SOFTEX, and BG services.",
         highlights: [
             "First corporate client-facing React UI framework by Impactsure",
             "POC for HDFC Bank, demos with SBI, Deutsche Bank, Euro Exim",
             "8+ microservices architecture with Flowable BPMN integration",
             "Reusable component library for multi-service UI",
         ],
-        tech: ["React", "TypeScript", "Spring Boot", "Flowable BPMN", "Microservices"],
+        tech: ["React", "TypeScript", "Spring Boot", "Flowable BPMN", "Keycloak", "Microservices"],
         status: "In Development",
         clients: ["HDFC Bank", "SBI", "Deutsche Bank"],
     },
@@ -29,13 +29,13 @@ const projects = [
             "Track changes and comment functionality",
             "Multi-user collaboration support",
         ],
-        tech: ["Java", "Apache POI", "JSoup", "Python", "HTML/CSS"],
+        tech: ["Java", "Apache POI", "JSoup", "HTML/CSS"],
         status: "Live in Production",
         clients: ["SBI", "Axis Bank", "SIB"],
     },
     {
         title: "Document Comparison Engine",
-        period: "Feb 2024",
+        period: "Sept 2024",
         icon: GitCompare,
         description: "Advanced document comparison tool to prevent document forgery with side-by-side diff highlighting.",
         highlights: [
@@ -44,7 +44,7 @@ const projects = [
             "Diff Match Patch algorithm integration",
             "Supports DOCX and PDF format combinations",
         ],
-        tech: ["Python", "Paddle OCR", "Diff Match Patch", "Apache POI"],
+        tech: ["Python", "Paddle OCR", "Java", "Diff Match Patch", "Apache POI", "JSoup"],
         status: "Live in Production",
         clients: ["SBI", "Axis Bank", "SIB"],
     },
@@ -59,7 +59,7 @@ const projects = [
             "TAT report generation with Apache POI",
             "Multi-level hierarchy support (PM → Tech Lead → Dev → Infra)",
         ],
-        tech: ["Java", "Spring Boot", "Thymeleaf", "Flowable BPMN", "Keycloak"],
+        tech: ["Java", "Spring Boot", "Thymeleaf", "Flowable BPMN", "Keycloak", "MySQL"],
         status: "Live in Production",
         clients: ["Internal Use"],
     },
@@ -74,7 +74,7 @@ const projects = [
             "10+ critical production issues resolved",
             "5+ change requests delivered",
         ],
-        tech: ["Java", "Spring Boot", "React", "Flowable BPMN"],
+        tech: ["Java", "Spring Boot", "Thymeleaf", "Oracle 19c"],
         status: "Live in Production",
         clients: ["Axis Bank"],
     },
@@ -89,7 +89,7 @@ const projects = [
             "Document stamp validation",
             "Maker-checker workflow implementation",
         ],
-        tech: ["Java", "Spring Boot", "React", "Flowable BPMN", "Keycloak"],
+        tech: ["Java", "Spring Boot", "Thymeleaf", "Oracle 19c"],
         status: "Live in Production",
         clients: ["Axis Bank", "SBI", "IndusInd Bank"],
     },
@@ -113,7 +113,7 @@ const ProjectsSection = () => {
                             transition={{ delay: 0.2 }}
                             className="text-indigo-light font-mono text-sm mb-2"
                         >
-                            What I&apos;ve Built
+                            What I&apos;ve Worked On
                         </motion.p>
                         <motion.h2
                             initial={{ opacity: 0, y: 20 }}

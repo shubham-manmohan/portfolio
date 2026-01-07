@@ -16,7 +16,7 @@ const skillCategories = [
     {
         title: "Databases",
         icon: Database,
-        skills: ["Oracle 19c", "MySQL", "PostgreSQL"],
+        skills: ["Oracle 19c", "MySQL"],
     },
     {
         title: "Workflow & Integration",
@@ -31,7 +31,7 @@ const skillCategories = [
     {
         title: "Tools & DevOps",
         icon: GitBranch,
-        skills: ["Git", "Postman", "M.S Graph SDK", "Maven", "Jenkins", "Docker"],
+        skills: ["Git", "Postman", "M.S Graph SDK", "Maven"],
     },
 ];
 

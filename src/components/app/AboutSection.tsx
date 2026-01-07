@@ -7,12 +7,12 @@ const highlights = [
     {
         icon: Building2,
         title: "Enterprise Banking",
-        description: "Built production systems for SBI, Axis Bank, and SIB",
+        description: "Played a key role in building and supporting production systems used by SBI, Axis Bank, and SIB",
     },
     {
         icon: Workflow,
         title: "BPMN Workflows",
-        description: "Expert in Flowable V6 for complex maker-checker flows",
+        description: "Expert in Flowable V6 for complex maker-checker workflows",
     },
     {
         icon: Code2,
@@ -22,7 +22,7 @@ const highlights = [
     {
         icon: Database,
         title: "Document Processing",
-        description: "DOCX to HTML/PDF conversion with 90% accuracy",
+        description: "Rich-text document editor supporting DOCX upload, in-browser editing, and bidirectional DOCX ↔ HTML ↔ PDF conversion with ~90% accuracy",
     },
 ];
 
@@ -31,7 +31,7 @@ const AboutSection = () => {
     const isInView = useInView(ref, { once: true, margin: "-100px" });
 
     return (
-        <section id="about" className="py-20 md:py-32 relative">
+        <section id="about" className="py-4 md:py-32 relative">
             <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/5 to-background" />
 
             <div className="section-container relative">
@@ -40,7 +40,7 @@ const AboutSection = () => {
                     initial={{ opacity: 0, y: 50 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6 }}
-                    className="max-w-4xl mx-auto"
+                    className="max-w-7xl mx-auto"
                 >
                     {/* Section Header */}
                     <div className="text-center mb-16">
@@ -77,7 +77,7 @@ const AboutSection = () => {
                     >
                         <p className="text-muted-foreground leading-relaxed mb-6">
                             I&apos;m a <span className="text-foreground font-medium">Software Engineer</span> at Impactsure Technologies
-                            with over 2+ years of experience building enterprise-grade banking solutions. I specialize in developing
+                            with over 3+ years of experience building enterprise-grade banking solutions. I specialize in developing
                             complex document processing systems, BPMN-based workflows, and full-stack applications that serve
                             major banking institutions across India.
                         </p>
@@ -85,7 +85,7 @@ const AboutSection = () => {
                             My journey includes building <span className="text-indigo-light">SureEditor</span> - an in-house DOCX editor
                             that replaced commercial solutions saving significant licensing costs, implementing
                             <span className="text-indigo-light"> enterprise SSO with Keycloak</span>, and leading critical production
-                            deployments for Axis Bank under tight RBI timelines.
+                            deployments for Axis Bank under tight regulatory and delivery deadlines.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
                             Currently, I&apos;m leading the development of a comprehensive <span className="text-purple-light">Trade Platform</span> with

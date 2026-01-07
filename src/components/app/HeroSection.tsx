@@ -70,7 +70,7 @@ const HeroSection = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-4"
+                        className="text-xl text-secondary-foreground md:text-2xl lg:text-3xl font-semibold text-foreground mb-4"
                     >
                         Software Engineer
                     </motion.h2>
@@ -107,8 +107,8 @@ const HeroSection = () => {
                         {[
                             { icon: Mail, href: "mailto:shubhammanmohan16@gmail.com", label: "Email" },
                             { icon: Phone, href: "tel:+918239673870", label: "Phone" },
-                            { icon: Linkedin, href: "https://linkedin.com/in/shubhammanmohan", label: "LinkedIn" },
-                            { icon: Github, href: "https://github.com/shubhammanmohan", label: "GitHub" },
+                            { icon: Linkedin, href: "https://linkedin.com/in/shubham-manmohan", label: "LinkedIn" },
+                            { icon: Github, href: "https://github.com/shubham-manmohan", label: "GitHub" },
                         ].map((social, index) => (
                             <motion.a
                                 key={social.label}

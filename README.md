@@ -9,23 +9,23 @@
 This repository contains the source code for my **personal portfolio website**, built using **Next.js** and **Tailwind CSS**, and deployed on **Vercel**.
 
 🔗 **Live Website:**  
-👉 **https://shubham-manmohan.vercel.app/**
+👉 https://shubham-manmohan.vercel.app/
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a **Software Engineer** with strong experience in building **enterprise-grade banking and financial platforms**, specializing in:
+I am a **Software Engineer** specializing in building **enterprise-grade banking and financial platforms**, with deep experience in:
 
-- BPMN-based workflow systems  
-- Secure authentication & authorization  
-- Document processing and comparison engines  
-- Microservices architecture  
-- Corporate banking UI frameworks  
+- BPMN-based workflow orchestration  
+- Secure authentication and authorization systems  
+- Document processing, execution, and comparison engines  
+- Microservices-based architectures  
+- Corporate banking and enterprise UI frameworks  
 
-Currently working at **Impactsure Technologies**, where I have contributed to and led multiple **production-grade systems** used by major banks including:
+I currently work at **Impactsure Technologies**, contributing to and leading **production-critical systems** deployed for **Tier-1 public and private sector banks in India**.
 
-**SBI · Axis Bank · SIB · HDFC Bank**
+My work focuses on **high-compliance, document-heavy, and workflow-driven systems** where correctness, auditability, and reliability are critical.
 
 ---
 
@@ -37,13 +37,13 @@ Currently working at **Impactsure Technologies**, where I have contributed to an
 - Microservices Architecture  
 
 ### Frontend
-- React, **Next.js**
-- Tailwind CSS
+- React, **Next.js**  
+- Tailwind CSS  
 - HTML, CSS, JavaScript  
 
 ### Security
-- Keycloak
-- LDAP
+- Keycloak  
+- LDAP  
 - OAuth2  
 
 ### Document Processing
@@ -66,63 +66,49 @@ Currently working at **Impactsure Technologies**, where I have contributed to an
 
 ### 🔹 SureEditor – In-House DOCX Web Editor
 
-- Built a complete **DOCX-based web editor** with:
-  - Track changes
-  - Comments
+- Designed and built an **in-house DOCX-based web editor** featuring:
+  - Track changes and comments
   - DOCX ↔ HTML ↔ PDF conversion (~90% accuracy)
-- Replaced CKEditor, saving **~$3000/year in licensing cost**
-- Used across **70%+ internal products**
-- Integrated into:
-  - SureSanction
-  - BG Printing
-  - SureMatch-BG
-- **Live in production** for:
-  - SBI
-  - Axis Bank
-  - SIB
+- Replaced CKEditor to improve control over document processing and reduce licensing costs (~$3000/year)
+- Adopted across **70%+ internal platforms**, standardizing document editing and execution
+- Integrated into multiple banking products including loan sanctioning and BG workflows
+- **Live in production** for multiple Tier-1 banking clients
 
 ---
 
 ### 🔹 Document Comparison Engine
 
-- Prevents document forgery by detecting exact differences
-- Side-by-side comparison with highlighted changes
+- Built a **document comparison engine** to detect tampering and prevent forgery
+- Side-by-side comparison with precise difference highlighting
 - Accuracy:
-  - ~90% for digital documents
-  - ~80% for scanned documents
-- Technologies:
-  - Apache POI
-  - Paddle OCR
-  - Diff Match Patch algorithm
+  - ~90% for digitally generated documents
+  - ~80% for scanned documents using OCR
+- Implemented using Apache POI, Paddle OCR, and Diff Match Patch algorithms
+- Actively used in production-grade banking document validation flows
 
 ---
 
-### 🔹 BG Printing System – Axis Bank (Phase-1 Go-Live)
+### 🔹 BG Printing System (Phase-1 Go-Live)
 
-- Served as **Technical Lead**
-- Led a **5-member team** under accelerated RBI timelines
-- Enabled real-time BG inventory and document execution
-- Resolved **10+ critical production issues**
-- Delivered **5+ change requests**
-- Handled **nationwide branch-level helpline support**
-- Awarded **Star Team of the Month**
+- Served as **Technical Lead** during Phase-1 production rollout under accelerated regulatory timelines
+- Led a **5-member team** responsible for nationwide rollout and support
+- Enabled BG inventory management and document execution for bank branches
+- Resolved **10+ critical production issues** and delivered **5+ change requests**
+- Provided nationwide branch-level helpline support during go-live
+- Recognized as **Star Team of the Month**
 
 ---
 
 ### 🔹 Trade Platform (Current)
 
-- Building a **full-scale trade finance platform**
-- POC for **HDFC Bank**
-- Demos for:
-  - SBI
-  - Deutsche Bank
-  - Euro Exim
-- Functional coverage:
+- Contributing to the development of a **full-scale trade finance platform**
+- Engaged in POCs and enterprise demos with **Tier-1 domestic and international banks**
+- Functional coverage includes:
   - IRM, ORM
   - Import / Export Finance
-  - EDPMS, SOFTEX, BG
-- Designed the **first corporate client-facing React UI framework**
-- Implemented **Flowable BPMN maker–checker workflows**
+  - EDPMS, SOFTEX, Bank Guarantees
+- Designed a **reusable corporate client-facing React UI framework**
+- Implemented complex **Flowable BPMN-based maker–checker workflows**
 
 ---
 
@@ -135,12 +121,7 @@ Currently working at **Impactsure Technologies**, where I have contributed to an
 - **Deployment:** Vercel
 - **Version Control:** Git & GitHub
 
-This portfolio follows a **modern Next.js architecture** optimized for:
-
-- Performance
-- SEO
-- Accessibility
-- Clean UI/UX
+This portfolio follows a **modern Next.js architecture** optimized for performance, SEO, accessibility, and maintainability.
 
 ---
 
@@ -159,10 +140,10 @@ This portfolio follows a **modern Next.js architecture** optimized for:
 
 Feel free to connect with me:
 
-- 📧 **Email:** shubhammanmohan16@gmail.com  
-- 💼 **LinkedIn:** https://linkedin.com/in/shubham-manmohan  
-- 🐙 **GitHub:** https://github.com/shubham-manmohan  
+- 📧 Email: shubhammanmohan16@gmail.com  
+- 💼 LinkedIn: https://linkedin.com/in/shubham-manmohan  
+- 🐙 GitHub: https://github.com/shubham-manmohan  
 
 ---
 
-⭐ If you like this portfolio, feel free to star the repository!
+⭐ If you find this portfolio useful, feel free to star the repository!

@@ -7,24 +7,25 @@ const highlights = [
     {
         icon: Building2,
         title: "Enterprise Banking",
-        description: "Played a key role in building and supporting production systems used by SBI, Axis Bank, and SIB",
+        description: "Contributed to enterprise-grade banking systems for leading financial institutions in India",
     },
     {
         icon: Workflow,
         title: "BPMN Workflows",
-        description: "Expert in Flowable V6 for complex maker-checker workflows",
+        description: "Expert in Flowable V6 for implementing complex maker-checker workflows",
     },
     {
         icon: Code2,
         title: "Full Stack Development",
-        description: "Java, Spring Boot, React, TypeScript expertise",
+        description: "Proficient in Java, Spring Boot, React, TypeScript for scalable applications",
     },
     {
         icon: Database,
         title: "Document Processing",
-        description: "Rich-text document editor supporting DOCX upload, in-browser editing, and bidirectional DOCX ↔ HTML ↔ PDF conversion with ~90% accuracy",
+        description: "Developed rich-text editors supporting DOCX upload, in-browser editing, and DOCX ↔ HTML ↔ PDF conversion with high accuracy",
     },
 ];
+
 
 const AboutSection = () => {
     const ref = useRef(null);
@@ -78,20 +79,24 @@ const AboutSection = () => {
                         <p className="text-muted-foreground leading-relaxed mb-6">
                             I&apos;m a <span className="text-foreground font-medium">Software Engineer</span> at Impactsure Technologies
                             with over 3+ years of experience building enterprise-grade banking solutions. I specialize in developing
-                            complex document processing systems, BPMN-based workflows, and full-stack applications that serve
-                            major banking institutions across India.
+                            complex document processing systems,Flowable BPMN-based workflows, and full-stack applications used in large-scale
+                            banking environments.
                         </p>
+
                         <p className="text-muted-foreground leading-relaxed mb-6">
-                            My journey includes building <span className="text-indigo-light">SureEditor</span> - an in-house DOCX editor
-                            that replaced commercial solutions saving significant licensing costs, implementing
-                            <span className="text-indigo-light"> enterprise SSO with Keycloak</span>, and leading critical production
-                            deployments for Axis Bank under tight regulatory and delivery deadlines.
+                            My journey includes building <span className="text-indigo-light">SureEditor</span>, an in-house DOCX editor
+                            that replaced commercial tools and reduced licensing costs, implementing
+                            <span className="text-indigo-light"> enterprise SSO using Keycloak</span>, and handling critical production
+                            deployments under strict regulatory and delivery timelines.
                         </p>
+
                         <p className="text-muted-foreground leading-relaxed">
-                            Currently, I&apos;m leading the development of a comprehensive <span className="text-purple-light">Trade Platform</span> with
-                            8+ microservices, designing the first corporate client-facing React UI framework for the company, and
-                            working on POCs for HDFC Bank and other major financial institutions.
+                            Currently, I&apos;m leading the development of a comprehensive <span className="text-purple-light">Trade Platform </span>
+                            with 8+ microservices, designing the company’s first corporate client-facing React UI framework, and
+                            contributing to POCs and demos for public and private sector banks as part of broader enterprise deployments.
                         </p>
+
+
                     </motion.div>
 
                     {/* Highlights Grid */}

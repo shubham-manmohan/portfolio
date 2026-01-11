@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shubham Manmohan | Software Developer",
-  description: "Software Engineer specializing in Enterprise Banking Solutions, BPMN Workflows, and Document Processing Systems. Experience with SBI, Axis Bank, and major financial institutions.",
+  description: "Software Engineer specializing in Enterprise Banking Solutions, BPMN Workflows, and Document Processing Systems.",
 };
 
 export default function RootLayout({

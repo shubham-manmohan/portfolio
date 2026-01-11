@@ -5,7 +5,8 @@ import AchievementsSection from "./AchievementsSection";
 import ContactSection from "./ContactSection";
 import ExperienceSection from "./ExperienceSection";
 import Footer from "./Footer";
-import HeroSection from "./HeroSection";
+import HeroSectionWrapper from "./HeroSecrionWrapper";
+// import HeroSection from "./HeroSection";
 import Navigation from "./Navigation";
 import ProjectsSection from "./ProjectsSection";
 import ResumeSection from "./ResumeSection";
@@ -16,7 +17,8 @@ export default function RootWrapper() {
         <div className="min-h-screen bg-background">
             <Navigation />
             <main>
-                <HeroSection />
+                <HeroSectionWrapper />
+                {/* <HeroSection /> */}
                 <AboutSection />
                 <ExperienceSection />
                 <AchievementsSection />

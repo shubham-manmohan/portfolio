@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
-import { ChevronDown, Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import BlurText from "./support/BlurText";
 
 const HeroSection = () => {
-    const scrollToAbout = () => {
-        const element = document.querySelector("#about");
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-        }
-    };
+    // const scrollToAbout = () => {
+    //     const element = document.querySelector("#about");
+    //     if (element) {
+    //         element.scrollIntoView({ behavior: "smooth" });
+    //     }
+    // };
 
     return (
         <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -56,14 +57,14 @@ const HeroSection = () => {
                     </motion.p>
 
                     {/* Name with Signature Font */}
-                    <motion.h1
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.1 }}
+                    <BlurText
+                        text=" Shubham Manmohan"
+                        delay={150}
+                        animateBy="words"
+                        direction="top"
+                        onAnimationComplete={() => console.log("Animation Complete!")}
                         className="font-signature text-5xl sm:text-6xl md:text-7xl lg:text-8xl gradient-text mb-6"
-                    >
-                        Shubham Manmohan
-                    </motion.h1>
+                    />
 
                     {/* Title */}
                     <motion.h2
@@ -162,7 +163,7 @@ const HeroSection = () => {
                 </div>
 
                 {/* Scroll Indicator */}
-                <motion.button
+                {/* <motion.button
                     onClick={scrollToAbout}
                     className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-foreground transition-colors"
                     initial={{ opacity: 0 }}
@@ -173,7 +174,7 @@ const HeroSection = () => {
                     }}
                 >
                     <ChevronDown size={32} />
-                </motion.button>
+                </motion.button> */}
             </div>
         </section>
     );

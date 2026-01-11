@@ -11,9 +11,9 @@ const experiences = [
         period: "Dec 2025 – Present",
         products: ["Trade Platform"],
         highlights: [
-            "Leading development of a full Trade Platform with consultants; POC for HDFC Bank and demos for SBI, Deutsche Bank, and others",
+            "Leading development of a full Trade Platform with consultants; supporting POCs and demos for Tier-1 Indian banks and other public and private sector banks",
             "Designed the first corporate client-facing React UI framework with reusable components for 8+ trade services (IRM, ORM, Import/Export Finance, EDPMS, SOFTEX, BG)",
-            "Implemented Flowable BPMN-based maker-checker workflows across all trade services, managing approval flows",
+            "Implemented Flowable BPMN-based maker-checker workflows across all trade services, managing approval and audit flows",
         ],
         isCurrent: true,
     },
@@ -25,11 +25,11 @@ const experiences = [
         period: "July 2023 – Nov 2025",
         products: ["SureConnect", "SureEditor", "SureSanction", "BG Printing", "SureMatch-BG"],
         highlights: [
-            "Built BPMN-based workflows, secure authentication, and document processing features for production banking systems",
-            "Integrated editor and document comparison features into SureSanction, BG Printing, and SureMatch-BG (live for SBI, Axis Bank, SIB)",
-            "Implemented enterprise SSO using Keycloak with LDAP for secure client authentication across microservices",
-            "Served as Technical Lead for BG Printing Phase-1 go-live for Axis Bank; led 5-member team, resolved 10+ critical issues, earned Star Team of the Month",
-            "Led POCs for SureMatch-BG, converting to production deployments for Axis, SBI, and IndusInd Banks",
+            "Built BPMN-based workflows, secure authentication, and document processing features for enterprise banking systems",
+            "Integrated editor and document comparison capabilities into multiple platforms (SureSanction, BG Printing, and SureMatch-BG) deployed across Tier-1 Indian banks",
+            "Implemented enterprise SSO using Keycloak with LDAP for secure authentication across microservices",
+            "Served as Technical Lead for BG Printing Phase-1 production go-live; led a 5-member team, resolved 10+ critical production issues, and earned Star Team of the Month",
+            "Led multiple POCs and supported their transition into production deployments for public and private sector banks",
         ],
         achievement: "Star Team of the Month",
     },
@@ -41,13 +41,15 @@ const experiences = [
         period: "Jan 2023 – June 2023",
         products: ["CRM", "SureLogistics", "SurePlan"],
         highlights: [
-            "Provided production support for Gardler Lighting client, resolving 25+ bugs and implementing 20+ change requests",
-            "Built multi-vendor RPA-based shipment tracking in SureLogistic, reducing manual tracking effort by 60%",
-            "Delivered CRM enhancements with mandatory field validations across three live applications",
-            "Integrated SurePlan with Tally ERP to sync stock and track finished goods from BOM to production line",
+            "Provided production support for a large lighting manufacturing client, resolving 25+ bugs and implementing 20+ change requests across live systems",
+            "Built multi-vendor RPA-based shipment tracking, reducing manual tracking effort by 60%",
+            "Delivered CRM enhancements with mandatory field validations across multiple live applications",
+            "Integrated SurePlan with Tally ERP to sync inventory and track finished goods from BOM to production line",
         ],
     },
+
 ];
+
 
 const ExperienceSection = () => {
     const ref = useRef(null);

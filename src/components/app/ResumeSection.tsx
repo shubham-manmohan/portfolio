@@ -11,7 +11,7 @@ export default function ResumeSection() {
                 {/* Resume Preview */}
                 <div className="flex justify-center mb-8">
                     <Image
-                        src="/images/Shubham_Manmohan_Full_Stack.png"
+                        src="/images/resume/Shubham_Manmohan_Full_Stack.png"
                         alt="Shubham Manmohan Resume"
                         width={600}
                         height={850}
@@ -21,7 +21,7 @@ export default function ResumeSection() {
 
                 {/* Download Button */}
                 <a
-                    href="/resume/Shubham_Manmohan_Full_Stack.pdf"
+                    href="/images/resume/Shubham_Manmohan_Full_Stack.pdf"
                     download
                     className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition"
                 >

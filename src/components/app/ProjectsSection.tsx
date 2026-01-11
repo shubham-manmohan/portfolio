@@ -8,22 +8,24 @@ const projects = [
         title: "Trade Platform",
         period: "May 2025 - Present",
         icon: Layers,
-        description: "Contributed to architecture and UI framework for a multi-service trade finance platform covering IRM, LC, BG, and regulatory reporting modules.",
+        description:
+            "Contributed to architecture and UI framework for a multi-service trade finance platform covering IRM, LC, BG, Export/Import, SOFTEX and regulatory reporting modules.",
         highlights: [
-            "First corporate client-facing React UI framework by Impactsure",
-            "POC for HDFC Bank, demos with SBI, Deutsche Bank, Euro Exim",
+            "First corporate client-facing React UI framework developed at Impactsure",
+            "Supporting POCs and solution demos for Tier-1 Indian banks and other public and private sector banks",
             "8+ microservices architecture with Flowable BPMN integration",
             "Reusable component library for multi-service UI",
         ],
         tech: ["React", "TypeScript", "Spring Boot", "Flowable BPMN", "Keycloak", "Microservices"],
         status: "In Development",
-        clients: ["HDFC Bank", "SBI", "Deutsche Bank"],
+        clients: ["POCs Multiple Indian Banks"],
     },
     {
         title: "SureEditor - Web DOCX Editor",
         period: "Feb 2024",
         icon: FileText,
-        description: "In-house web-based DOCX editor built to replace CKEditor, providing full control over document processing and saving ~$3000 annually in licensing costs for each deployment.",
+        description:
+            "In-house web-based DOCX editor built to replace commercial editors, providing full control over document processing and reducing licensing costs across deployments.",
         highlights: [
             "DOCX to HTML conversion with ~90% accuracy",
             "HTML to DOCX/PDF reverse engineering",
@@ -32,36 +34,36 @@ const projects = [
         ],
         tech: ["Java", "Apache POI", "JSoup", "HTML/CSS"],
         status: "Live in Production",
-        clients: ["SBI", "Axis Bank", "SIB"],
+        clients: ["Tier-1 Indian Banks"],
     },
     {
         title: "Document Comparison Engine",
         period: "Sept 2024",
         icon: GitCompare,
-        description: "Advanced document comparison tool to prevent document forgery with side-by-side diff highlighting.",
+        description:
+            "Advanced document comparison engine designed to prevent document forgery with side-by-side diff highlighting.",
         highlights: [
-            "~90% accuracy for digital documents",
-            "~80% accuracy for scanned documents using Paddle OCR",
+            "~90% accuracy for digitally generated documents",
+            "~80% accuracy for scanned documents using OCR",
             "Diff Match Patch algorithm integration",
             "Supports DOCX and PDF format combinations",
         ],
         tech: ["Python", "Paddle OCR", "Java", "Diff Match Patch", "Apache POI", "JSoup"],
         status: "Live in Production",
-        clients: ["SBI", "Axis Bank", "SIB"],
+        clients: ["Tier-1 Indian Banks"],
     },
     {
         title: "SureSanction – Loan Sanctioning & E-Execution Platform",
-        period: "Feb 2024 – April 2025",
+        period: "Feb 2024",
         icon: FileCheck2,
         description:
-            "Enterprise-grade loan sanctioning and digital document execution platform with end-to-end maker–checker workflows for banking clients.",
+            "Enterprise-grade loan sanctioning and digital document execution platform with end-to-end maker–checker workflows.",
         highlights: [
-            "Enabled fully digital loan execution by implementing an E-Execution portal, reducing manual document handling and approval turnaround time.",
-            "Maker–checker workflow using Flowable BPMN across CAMU, CAD, and sanction stages",
-            "Integrated SureEditor for loan checklist document editing with track changes",
-            "DOCX execution, e-Stamp validation, and post-sign document download flow",
+            "Enabled fully digital loan execution through an e-execution portal, reducing manual processing and approval turnaround time",
+            "Maker–checker workflows implemented using Flowable BPMN across sanctioning stages",
+            "Integrated document editor with track changes for loan checklist management",
             "SSO integration using Keycloak with LDAP across multiple microservices",
-            "Led editor integration and document comparison modules, contributing ~50% of overall SureSanction delivery and core business workflows.",
+            "Led editor and document comparison modules, contributing significantly to core business workflows",
         ],
         tech: [
             "Java",
@@ -74,54 +76,58 @@ const projects = [
             "DOCX Processing",
         ],
         status: "Live in Production",
-        clients: ["Axis Bank", "SIB"],
+        clients: ["Public & Private Sector Banks"],
     },
     {
         title: "SureConnect - In-House CRM",
         period: "Oct 2023",
         icon: Workflow,
-        description: "Production support ticketing system with BPMN workflow for TAT tracking and issue resolution.",
+        description:
+            "Internal production support and ticketing platform with BPMN workflows for TAT tracking and issue resolution.",
         highlights: [
             "Flowable BPMN for process flow management",
-            "Keycloak SSO integration",
-            "TAT report generation with Apache POI",
-            "Multi-level hierarchy support (PM → Tech Lead → Dev → Infra)",
+            "Keycloak-based SSO integration",
+            "TAT report generation using Apache POI",
+            "Multi-level hierarchy support across teams",
         ],
         tech: ["Java", "Spring Boot", "Thymeleaf", "Flowable BPMN", "Keycloak", "MySQL"],
         status: "Live in Production",
-        clients: ["Internal Use"],
+        clients: ["Internal Platform"],
     },
     {
         title: "BG Printing System",
-        period: "2024",
+        period: "April 2024",
         icon: Building2,
-        description: "Bank Guarantee document printing and inventory management system for Axis Bank branches.",
+        description:
+            "Enterprise bank guarantee document printing and inventory management system for branch-level operations.",
         highlights: [
-            "Phase-1 go-live under accelerated RBI timelines",
-            "Nationwide branch manager helpline support",
-            "10+ critical production issues resolved",
-            "5+ change requests delivered",
+            "Phase-1 production go-live under tight regulatory timelines",
+            "Handled nationwide rollout support during initial adoption",
+            "Resolved 10+ critical production issues",
+            "Delivered multiple post-go-live change requests",
         ],
         tech: ["Java", "Spring Boot", "Thymeleaf", "Oracle 19c"],
         status: "Live in Production",
-        clients: ["Axis Bank"],
+        clients: ["Tier-1 Indian Banks"],
     },
     {
         title: "SureMatch-BG",
-        period: "2024",
+        period: "Nov 2024",
         icon: Server,
-        description: "Bank Guarantee vetting platform with editor integration for document validation and verification.",
+        description:
+            "Bank guarantee vetting platform with document validation and verification workflows.",
         highlights: [
-            "50%+ ownership of editor integration",
-            "POC conversion to production for 3 clients",
-            "Document stamp validation",
-            "Maker-checker workflow implementation",
+            "Owned a major share of editor integration work",
+            "Converted multiple POCs into production deployments",
+            "Document stamp and validation checks",
+            "Maker–checker workflow implementation",
         ],
         tech: ["Java", "Spring Boot", "Thymeleaf", "Oracle 19c"],
         status: "Live in Production",
-        clients: ["Axis Bank", "SBI", "IndusInd Bank"],
+        clients: ["Public & Private Sector Banks"],
     },
 ];
+
 
 const ProjectsSection = () => {
     const ref = useRef(null);
@@ -184,8 +190,8 @@ const ProjectsSection = () => {
                                         </div>
                                         <span
                                             className={`px-2 py-1 text-xs font-medium rounded-full ${project.status === "Live in Production"
-                                                    ? "bg-green-500/20 text-green-700"
-                                                    : "bg-yellow-500/20 text-yellow-700"
+                                                ? "bg-green-500/20 text-green-700"
+                                                : "bg-yellow-500/20 text-yellow-700"
                                                 }`}
                                         >
                                             {project.status}

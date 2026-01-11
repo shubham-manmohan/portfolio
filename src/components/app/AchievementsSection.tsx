@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import TrainingSection from "./TrainingSection";
 
 const achievements = [
     {
@@ -23,7 +24,7 @@ const achievements = [
 
 export default function AchievementsSection() {
     return (
-        <section id="achievements" className="py-20 bg-muted">
+        <section id="achievements" className="py-8 bg-gradient-to-r from-indigo-light/5 via-purple-light/5 to-indigo-light/5">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl font-bold text-center mb-12">
                     Achievements & Recognition
@@ -47,6 +48,7 @@ export default function AchievementsSection() {
                     ))}
                 </div>
             </div>
+            <TrainingSection />
         </section>
     );
 }
